@@ -1,0 +1,27 @@
+package chap_4;
+
+public class P102 {
+
+	public static void main(String[] args) {
+		
+		int ranking = 4;
+		String medalcolor;
+		
+		switch(ranking) {
+		case 1 : medalcolor = "G";
+		break;
+		
+		case 2 : medalcolor = "S";
+		break;
+		
+		case 3 : medalcolor = "B";
+		break;
+		
+		default:
+			medalcolor = "A";
+			
+		}
+		System.out.println(ranking + "등메달의 색깔은"+ medalcolor + " 입니다.");
+	}
+
+}
